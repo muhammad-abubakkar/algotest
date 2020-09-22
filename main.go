@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/muhammad-abubakkar/algotest/algos"
+)
 
 func main() {
-	fmt.Println("Hello World")
+	result := algos.CommonMultiple([]int{1, 5})
+	fmt.Println(result)
 }
