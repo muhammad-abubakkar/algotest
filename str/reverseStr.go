@@ -1,4 +1,4 @@
-package algos
+package str
 
 // ReverseStr reverse string characters
 func ReverseStr(str string) string {

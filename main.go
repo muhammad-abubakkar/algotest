@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/muhammad-abubakkar/algotest/algos"
+	"github.com/muhammad-abubakkar/algotest/str"
 )
 
 func main() {
-	result := algos.CommonMultiple([]int{1, 5})
+	result := str.TruncateStr("Hello", 9)
 	fmt.Println(result)
 }
